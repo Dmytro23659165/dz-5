@@ -190,3 +190,27 @@ switch (promere) {
         break;
     default: console.log(`Ви нічого не написали!`)
 }
+
+
+let operaton = prompt(`Введіть будь ласка значення`);
+ let number1 = Number(prompt(`Введіть будь ласка перше число`));
+ let number2 = Number(prompt(`Введіть будь ласка друге число`));
+let calculate = (number1 + number2);
+let calculat = (number1 - number2);
+let calcula = (number1 * number2);
+let calcul = (number1 / number2);
+switch (operaton) {
+    case '+':
+        alert(calculate);
+        break;
+    case '-':
+        alert(calculat);
+        break;
+    case '*':
+        alert(calcula);
+        break;
+    case '/':
+        alert(calcul);
+        break;
+    default: alert(`Упс щось пішло не так!`);
+}
